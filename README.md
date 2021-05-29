@@ -52,7 +52,7 @@ interface Weather{
 
 ## Stations API:
 ```
-GET api/v1/stations?kioskId=<kioskId>&at=<time>
+GET /api/v1/stations?kioskId=<kioskId>&at=<time>
 kioskId (optional)
 time (required)
 ```
