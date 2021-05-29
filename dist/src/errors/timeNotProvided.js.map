@@ -1,0 +1,1 @@
+{"version":3,"file":"timeNotProvided.js","sourceRoot":"","sources":["../../../src/errors/timeNotProvided.ts"],"names":[],"mappings":";;;AAAA,kEAAkE;AAClE,MAAa,oBAAqB,SAAQ,KAAK;IAC3C,YAAY,OAAO;QACjB,KAAK,CAAC,OAAO,CAAC,CAAC;QACf,IAAI,CAAC,IAAI,GAAG,sBAAsB,CAAC;IACrC,CAAC;CACJ;AALD,oDAKC"}

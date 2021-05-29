@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://root:root@cluster0.kxvwu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "apiToken": "bikeroni123",
+    "indegoURL": "https://kiosks.bicycletransit.workers.dev/phl",
+    "weatherURL": "http://api.openweathermap.org/data/2.5/weather?q=philadelphia&appid=26667325d45772db42aff470ccf161dd&units=metric"
+}

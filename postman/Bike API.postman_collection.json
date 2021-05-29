@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "be3009bb-268e-40de-a960-92368230a7e0",
+		"name": "Bike API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Snapshot by kioskId",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-token",
+						"value": "bikeroni123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/stations?kioskId=3004&at=2021-05-29T06:56:28.712",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"stations"
+					],
+					"query": [
+						{
+							"key": "kioskId",
+							"value": "3004"
+						},
+						{
+							"key": "at",
+							"value": "2021-05-29T06:56:28.712"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Snapshot for all stations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-token",
+						"type": "text",
+						"value": "bikeroni123"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/stations?at=2021-05-29T06:56:28.712",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"stations"
+					],
+					"query": [
+						{
+							"key": "at",
+							"value": "2021-05-29T06:56:28.712"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

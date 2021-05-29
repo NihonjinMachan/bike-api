@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike API</title>
+</head>
+<body>
+    <div>
+
+        <h1 className="heading"><strong>Welcome to the Bike API!</strong></h1>
+  
+        <div>
+          <h3><strong>User Guide</strong></h3>
+          <p>This webpage was made for quick access to the API server. More details can be found on the GitHub repo or Swagger documentation</p>
+        </div>
+        
+        <br></br>
+        
+        <div>
+          <h2><strong>Fetch Historical Data</strong></h2>
+          <ol>
+            <li>It is a cron job that runs on the Heroku scheduler every hour</li>
+            <li>The data it saves can be accessed using the link <span style="background-color:#FF8C7C;">mongodb+srv://root:root@cluster0.kxvwu.mongodb.net/test</span> on Mongo Compass</li>
+          </ol>
+        </div>
+  
+        <div>
+          <h2><strong>Fetch station snapshot</strong></h2>
+          <ul>
+            <li>A single endpoint is being used for fetching spanshots for both all stations at a given time as well as a specific station by kioskId for a given time</li>
+            <li>These functionalities are differentiated by the presence of specific query string params</li>
+            <li>To fetch snapshot for a specfic kiosk use: <span style="background-color:#FF8C7C;">/api/v1/stations?kioskId={kioskID}&at={time} (sample kioskID = 3004, 3205)</span></li>
+            <li>To fetch snapshot for all kiosks use: <span style="background-color:#FF8C7C;">/api/v1/stations?at={time}</span></li>
+          </ul>
+      </div>
+</body>
+</html>
