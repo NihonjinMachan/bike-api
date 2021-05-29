@@ -8,7 +8,6 @@ import {SnapshotNotFoundError} from './errors/snapshotNotFound';
 import {timeNotProvidedError} from './errors/timeNotProvided';
 
 const app = express();
-const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
@@ -47,8 +46,8 @@ app.get('/api/v1/stations', auth, (req, res, next) => {
 });
 
 errorHandler(app);
-app.listen(port, () => {
-  return logger.info(`server is listening on ${port}`);
+app.listen(process.env.PORT || 5000, () => {
+  return logger.info(`server is listening on ${process.env.PORT || 5000}`);
 });
 
 export {app}
