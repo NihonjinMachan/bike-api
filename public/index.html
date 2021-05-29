@@ -13,7 +13,7 @@
   
         <div>
           <h3><strong>User Guide</strong></h3>
-          <p>This webpage was made for quick access to the API server. More details can be found on the GitHub repo or Swagger documentation</p>
+          <p>This webpage was made for quick access to the API server. More details can be found on the GitHub repo</p>
         </div>
         
         <br></br>
@@ -33,6 +33,8 @@
             <li>These functionalities are differentiated by the presence of specific query string params</li>
             <li>To fetch snapshot for a specfic kiosk use: <span style="background-color:#FF8C7C;">/api/v1/stations?kioskId={kioskID}&at={time} (sample kioskID = 3004, 3205)</span></li>
             <li>To fetch snapshot for all kiosks use: <span style="background-color:#FF8C7C;">/api/v1/stations?at={time}</span></li>
+            <li>NOTE: Please make sure to set the <span style="background-color:#FF8C7C;"></span>('api-token': bikeroni123)</span> key on the request headers</li>
+            <li>A postman collection is included in the source code for convenience</li>
           </ul>
       </div>
 </body>
