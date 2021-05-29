@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/src/index.js",
+    "tsc": "tsc",
+    "start": "node dist/src/index.js",
     "test": "NODE_ENV=test jest --force-exit",
-    "coverage": "jest --coverage --force-exit"
+    "coverage": "jest --coverage --force-exit",
+    "postinstall": "npm run tsc"
   },
   "keywords": [],
   "author": "",
