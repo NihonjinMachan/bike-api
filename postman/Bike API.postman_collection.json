@@ -17,12 +17,13 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/api/v1/stations?kioskId=3004&at=2021-05-29T06:56:28.712",
+					"raw": "http://bikeroni.herokuapp.com/api/v1/stations?kioskId=3004&at=2021-05-29T06:00:00.000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"bikeroni",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -35,7 +36,7 @@
 						},
 						{
 							"key": "at",
-							"value": "2021-05-29T06:56:28.712"
+							"value": "2021-05-29T06:00:00.000"
 						}
 					]
 				}
@@ -54,12 +55,13 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/api/v1/stations?at=2021-05-29T06:56:28.712",
+					"raw": "http://bikeroni.herokuapp.com/api/v1/stations?at=2021-05-29T10:00:00.000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"bikeroni",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -68,7 +70,7 @@
 					"query": [
 						{
 							"key": "at",
-							"value": "2021-05-29T06:56:28.712"
+							"value": "2021-05-29T10:00:00.000"
 						}
 					]
 				}
